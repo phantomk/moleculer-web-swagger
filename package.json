@@ -1,0 +1,67 @@
+{
+  "name": "moleculer-web-swagger",
+  "version": "0.0.1",
+  "description": "Unofficial Swagger service for Moleculer-web",
+  "main": "index.js",
+  "scripts": {
+    "ci": "jest --watch",
+    "test": "jest --coverage",
+    "lint": "eslint --ext=.js src",
+    "deps": "npm-check -u",
+    "postdeps": "npm test",
+    "coverall": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "prepare": "node prepare-swagger-ui",
+    "prepublishOnly": "npm run prepare"
+  },
+  "keywords": [
+    "swagger",
+    "microservices",
+    "microservice",
+    "moleculer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phanntomk/moleculer-web-swagger.git"
+  },
+  "author": "phantomk",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "5.0.1",
+    "jest": "23.3.0",
+    "jest-cli": "23.3.0",
+    "mkdirp": "0.5.1",
+    "moleculer": "0.13.0",
+    "moleculer-console-tracer": "0.1.1",
+    "moleculer-repl": "0.4.0",
+    "moleculer-web": "^0.8.5",
+    "nodemon": "1.17.5",
+    "npm-check": "5.7.1",
+    "swagger-parser": "^6.0.2",
+    "swagger-ui-dist": "^3.20.4"
+  },
+  "peerDependencies": {
+    "moleculer": ">= 0.13.0"
+  },
+  "dependencies": {
+    "fastify": "^1.13.3",
+    "fastify-static": "^1.1.0",
+    "fs-extra": "^7.0.1",
+    "js-yaml": "^3.12.1",
+    "lodash": "4.17.10"
+  },
+  "engines": {
+    "node": ">= 8.x.x"
+  },
+  "jest": {
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node",
+    "rootDir": "./src",
+    "roots": [
+      "../test"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/test/services/"
+    ]
+  }
+}
