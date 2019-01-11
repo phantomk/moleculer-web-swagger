@@ -1,6 +1,6 @@
 {
   "name": "moleculer-web-swagger",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Unofficial Swagger service for Moleculer-web",
   "main": "index.js",
   "scripts": {
