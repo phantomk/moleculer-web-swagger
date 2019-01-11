@@ -3,7 +3,7 @@
 ![npm-veriosn](https://img.shields.io/npm/v/moleculer-web-swagger.svg)
 ![npm-dt](https://img.shields.io/npm/dt/moleculer-web-swagger.svg)
 
-This is a swagger plugin for moleculer-web, just simple.
+This is a swagger plugin for [moleculer-web](https://github.com/moleculerjs/moleculer-web) for [Moleculer microservices framework](https://github.com/moleculerjs/moleculer), just simple.
 
 ## Install
 
