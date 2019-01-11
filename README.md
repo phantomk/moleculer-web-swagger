@@ -63,7 +63,7 @@ module.exports = {
         "application/xml",
         "application/json"
       ],
-    }
+    },
 
     routes: [
       // your moleculer-web routes
