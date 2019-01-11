@@ -1,6 +1,6 @@
 {
   "name": "moleculer-web-swagger",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Unofficial Swagger service for Moleculer-web",
   "main": "index.js",
   "scripts": {
@@ -17,11 +17,12 @@
     "swagger",
     "microservices",
     "microservice",
-    "moleculer"
+    "moleculer",
+    "moleculer-web"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/phanntomk/moleculer-web-swagger.git"
+    "url": "https://github.com/phantomk/moleculer-web-swagger.git"
   },
   "author": "phantomk",
   "license": "MIT",
