@@ -9,7 +9,7 @@ const _ = require("lodash");
 const yaml = require("js-yaml");
 const fs = require("fs");
 const path = require("path");
-const fastify = require('fastify');
+const fastify = require("fastify");
 const swaggerSpecification = require("./specification.json");
 
 /**
@@ -219,7 +219,7 @@ module.exports = {
       res.send(this.settings.swaggerCache);
     });
 
-    this.server.listen(this.settings.port, (err, address) => {
+    this.server.listen(this.settings.port, this.settings.ip, (err, address) => {
       if (err) throw err;
 			this.logger.info(`Swagger listening on ${address}`);
     });
