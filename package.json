@@ -48,7 +48,7 @@
     "fastify-static": "^1.1.0",
     "fs-extra": "^7.0.1",
     "js-yaml": "^3.12.1",
-    "lodash": "4.17.10"
+    "lodash": "4.17.13"
   },
   "engines": {
     "node": ">= 8.x.x"
