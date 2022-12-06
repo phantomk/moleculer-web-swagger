@@ -34,7 +34,7 @@
     "moleculer": "0.13.0",
     "moleculer-console-tracer": "0.1.1",
     "moleculer-repl": "0.4.0",
-    "moleculer-web": "^0.8.5",
+    "moleculer-web": "^0.10.4",
     "nodemon": "1.17.5",
     "npm-check": "5.7.1",
     "swagger-parser": "^6.0.2",
